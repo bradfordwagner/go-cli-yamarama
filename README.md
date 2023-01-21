@@ -1,0 +1,2 @@
+# gh-template-go-cli
+
