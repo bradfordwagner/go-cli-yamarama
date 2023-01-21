@@ -1,5 +1,5 @@
 # Yamarama
-- An argocd configuration flattener. Takes configuration for many clusters, resolves their variable hierarchy by doing a depth first traversal. Then outputs the resolution to leaf level cluster configuration. If we use many git cluster generators instead of this strategy, git io can overwhelm an appset controller and deployments will stall.
+- An argocd configuration flattener. Takes configuration for many clusters, resolves their variable hierarchy by depth first traversal. Then outputs the resolution to leaf level cluster configuration. If we use many git cluster generators instead of this strategy, git io can overwhelm an appset controller and deployments will stall.
 
 ## Commands
 - `bootstrap` - generates structure for yaml hierarchy based on a `structure.yaml`
